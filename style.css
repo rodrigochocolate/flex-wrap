@@ -1,0 +1,22 @@
+.container {
+  padding: 4px;
+  margin: 8px;
+  border: 2px solid rgb(68, 68, 68);
+
+  display: flex;
+  flex-wrap: nowrap; /* Não permite a quebra de linha, configuração padrão */
+  flex-wrap: wrap; /* Quebra a linha assim que um dos flex itens não puder mais ser compactado */
+  flex-wrap: wrap-reverse; /* Quebra a linha assim que um dos flex itens não puder mais ser compactado, a quebra de linha é na direção contrária */
+}
+
+.item {
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: tomato;
+  font-size: 2em;
+  color: rgb(48, 47, 47);
+  border: 2px solid rgb(201, 78, 57);
+  margin: 2px;
+}
